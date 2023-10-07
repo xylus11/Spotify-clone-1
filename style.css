@@ -522,10 +522,10 @@ input[type="range"]{
        
       }
       .sidebar{ width: 40vw;
-     flex:30}
+     flex:0.30}
       .main-content{
        width: 60vw;
-       flex:70;
+       flex:0.70;
       }
       
           }
@@ -603,10 +603,10 @@ input[type="range"]{
         
        }
        .sidebar{ width: 40vw;
-      flex:30}
+      flex:0.30}
        .main-content{
         width: 60vw;
-        flex:70;
+        flex:0.70;
        }
        
            }
