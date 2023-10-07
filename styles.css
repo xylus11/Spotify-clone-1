@@ -419,8 +419,7 @@ input[type="range"]{
         text-align: center;
         align-items: center;
         border-radius: 5px;
-        height: 30vh;
-     
+   
      }
      .top-bar{
          display: flex;
@@ -476,7 +475,7 @@ input[type="range"]{
   }
   
       }
-      @media screen and (min-width:480px)and (max-width:720px){
+      @media screen and (min-width:300px)and (max-width:720px){
       
         .main-content{
          overflow:auto;
@@ -494,14 +493,14 @@ input[type="range"]{
          text-align: center;
          align-items: center;
          border-radius: 5px;
-         height: 30vh;
+        
       
       }
       .top-bar{
           display: flex;
         flex-direction: column;
         text-align: left;
-        margin-top: 50px;
+       
       }
       .install-spotify{
          margin-top: 80px;
@@ -512,31 +511,34 @@ input[type="range"]{
          height: 100px;
      }
      .name>img{
-         width: 200px;
-         height: 200px;
+         width: 100px;
+         height: 100px;
      }
-     .top-bar>h1,h5{
-         padding: 0px;
-         margin: 0px;
-         
-       }
+    .top-bar{
+      margin-top: 0px;
+    }
        .top-bar>h1{
-          font-size: 30px;
+          font-size: 15px;
           font-weight: 900;
        
            
          }
          .top-bar>h5{
            font-weight: 100;
+           font-size: 8px
             
           }
-          .autoplay {
-             margin-left: 20px;
-             padding-inline: 20px;
+          .autoplay> {
+             width: 25px;
+             height: 25px;
            }
            .autoplay>img {
-           width: 35px;
-           height: 35px;
+           width: 25px;
+           height: 25px;
+           }
+           .title-p{
+            margin-top: 0px;
+            margin-left: 0px;
            }
      #items-2{
        display: none;
@@ -546,14 +548,20 @@ input[type="range"]{
        justify-content: space-between;
        align-items: center;
        padding-inline: 15px;
+       font-size: 8px;
      width:100%;
     
    }
    .sidebar{ width: 40vw;
-  flex:30}
+  flex:0.30;
+}
+
+
+.nav-bar{
+  gap:10px;
+}
    .main-content{
-    width: 60vw;
-    flex:70;
+    flex:0.70;
    }
    
        }

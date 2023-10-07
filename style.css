@@ -609,11 +609,39 @@ input[type="range"]{
        }
        .sidebar{ width: 40vw;
         font-size: 8px;
-      flex:0.40}
+      flex:0.40;
+      padding-inline: 0px;}
+      .sidebar>.types>h1{
+        font-size: 10px;
+      }
+      .types{
+        padding-inline: 0px;
+      }
        .main-content{
         width: 60vw;
         flex:0.60;
        }
+       .profile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+        /* width: 147px; */
+        /* height: 50px; */
+        /* padding-inline: 10px; */
+        border-radius: 33px;
+        background-color: #292929;
+      }
+      .profile>h3{
+        font-size: 8px;
+      }.part-3{
+        width: 98%;
+        /* height: 12%; */
+        position: fixed;
+        bottom: 0px;
+        background-color: #161616;
+        border-radius: 15px;
+    }
        
            }
   
