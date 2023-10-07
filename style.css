@@ -529,7 +529,7 @@ input[type="range"]{
       }
       
           }
-          @media screen and (min-width:400px)and (max-width:720px){
+          @media screen and (min-width:300px)and (max-width:720px){
       
             .main-content{
              overflow:auto;
@@ -608,6 +608,7 @@ input[type="range"]{
         
        }
        .sidebar{ width: 40vw;
+        font-size: 8px;
       flex:0.40}
        .main-content{
         width: 60vw;
