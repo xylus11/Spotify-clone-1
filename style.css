@@ -382,4 +382,232 @@ input[type="range"]{
        width: 20px;
        height: 20px;
      }
- 
+     @media screen and (width:720px)and (max-width:1100px){
+      
+        .main-content{
+         overflow:auto;
+         
+        }
+        .playlist{
+         display:flex;
+         flex-wrap: wrap;
+         width: 100%;
+         justify-content: center;
+     
+     }
+     .playlist>.name{
+         display: flex;
+         text-align: center;
+         align-items: center;
+         border-radius: 5px;
+         height: 30vh;
+      
+      }
+      .top-bar{
+          display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-top: 50px;
+      }
+      .install-spotify{
+         margin-top: 80px;
+         margin-bottom: 80px;
+     }
+     .install-spotify>img{
+         width: 100px;
+         height: 100px;
+     }
+     .name>img{
+         width: 200px;
+         height: 200px;
+     }
+     .top-bar>h1,h5{
+         padding: 0px;
+         margin: 0px;
+         
+       }
+       .top-bar>h1{
+          font-size: 30px;
+          font-weight: 900;
+       
+           
+         }
+         .top-bar>h5{
+           font-weight: 100;
+            
+          }
+          .autoplay {
+             margin-left: 20px;
+             padding-inline: 20px;
+           }
+           .autoplay>img {
+           width: 35px;
+           height: 35px;
+           }
+     #items-2{
+       display: none;
+     }
+       }
+       @media screen and (width:720px)and (max-width:1100px){
+      
+        .main-content{
+         overflow:auto;
+         
+        }
+        .playlist{
+            display:flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+        
+        }
+        .playlist>.name{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            border-radius: 5px;
+            height: 30vh;
+         
+         }
+         .top-bar{
+             display: flex;
+           flex-direction: column;
+           text-align: left;
+           margin-top: 50px;
+         }
+         .install-spotify{
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+        .install-spotify>img{
+            width: 100px;
+            height: 100px;
+        }
+        .name>img{
+            width: 200px;
+            height: 200px;
+        }
+        .top-bar>h1,h5{
+            padding: 0px;
+            margin: 0px;
+            
+          }
+          .top-bar>h1{
+             font-size: 30px;
+             font-weight: 900;
+          
+              
+            }
+            .top-bar>h5{
+              font-weight: 100;
+               
+             }
+             .autoplay {
+                margin-left: 20px;
+                padding-inline: 20px;
+              }
+              .autoplay>img {
+              width: 35px;
+              height: 35px;
+              }
+        #items-2{
+          display: none;
+        }
+        .song-name{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-inline: 15px;
+        width:100%;
+       
+      }
+      .sidebar{ width: 40vw;
+     flex:30}
+      .main-content{
+       width: 60vw;
+       flex:70;
+      }
+      
+          }
+          @media screen and (min-width:480px)and (max-width:720px){
+      
+            .main-content{
+             overflow:auto;
+             
+            }
+            .playlist{
+             display:flex;
+             flex-wrap: wrap;
+             width: 100%;
+             justify-content: center;
+         
+         }
+         .playlist>.name{
+             display: flex;
+             text-align: center;
+             align-items: center;
+             border-radius: 5px;
+             height: 30vh;
+          
+          }
+          .top-bar{
+              display: flex;
+            flex-direction: column;
+            text-align: left;
+            margin-top: 50px;
+          }
+          .install-spotify{
+             margin-top: 80px;
+             margin-bottom: 80px;
+         }
+         .install-spotify>img{
+             width: 100px;
+             height: 100px;
+         }
+         .name>img{
+             width: 200px;
+             height: 200px;
+         }
+         .top-bar>h1,h5{
+             padding: 0px;
+             margin: 0px;
+             
+           }
+           .top-bar>h1{
+              font-size: 30px;
+              font-weight: 900;
+           
+               
+             }
+             .top-bar>h5{
+               font-weight: 100;
+                
+              }
+              .autoplay {
+                 margin-left: 20px;
+                 padding-inline: 20px;
+               }
+               .autoplay>img {
+               width: 35px;
+               height: 35px;
+               }
+         #items-2{
+           display: none;
+         }
+         .song-name{
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           padding-inline: 15px;
+         width:100%;
+        
+       }
+       .sidebar{ width: 40vw;
+      flex:30}
+       .main-content{
+        width: 60vw;
+        flex:70;
+       }
+       
+           }
+  
