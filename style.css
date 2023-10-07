@@ -529,7 +529,7 @@ input[type="range"]{
       }
       
           }
-          @media screen and (min-width:480px)and (max-width:720px){
+          @media screen and (min-width:400px)and (max-width:720px){
       
             .main-content{
              overflow:auto;
@@ -547,7 +547,7 @@ input[type="range"]{
              text-align: center;
              align-items: center;
              border-radius: 5px;
-             height: 30vh;
+       
           
           }
           .top-bar{
@@ -567,6 +567,11 @@ input[type="range"]{
          .name>img{
              width: 200px;
              height: 200px;
+         }
+         .song-name>img{
+            width: 50px;
+            height: 50px;
+            margin-bottom: 15px;
          }
          .top-bar>h1,h5{
              padding: 0px;
@@ -603,10 +608,10 @@ input[type="range"]{
         
        }
        .sidebar{ width: 40vw;
-      flex:0.30}
+      flex:0.40}
        .main-content{
         width: 60vw;
-        flex:0.70;
+        flex:0.60;
        }
        
            }
